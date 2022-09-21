@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# SPX3819
+#
+DEF SPX3819 U 0 40 N N 1 L N
+F0 "U" -175 275 50 H V L BNN
+F1 "SPX3819" -175 175 50 H V L BNN
+F2 "SOT23-5" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+DRAW
+T 0 -80 -120 60 0 0 0 GND Normal 0 L B
+T 0 -175 25 60 0 0 0 IN Normal 0 L B
+T 0 25 25 60 0 0 0 OUT Normal 0 L B
+S -200 -150 200 150 0 0 16 f
+X ~ 1 -300 50 100 R 40 40 0 0 I 
+X ~ 3 -300 50 100 R 40 40 0 0 I 
+X ~ 2 0 -250 100 U 40 40 0 0 I 
+X ~ 5 300 50 100 L 40 40 0 0 O 
+ENDDRAW
+ENDDEF
+#
+# End Library
