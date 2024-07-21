@@ -1,0 +1,133 @@
+
+.img-z {
+	border-radius:10px;
+	margin:2px;
+}
+
+.img-center {
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+
+.tbl-full-width {
+	width:100%;
+}
+
+.tbl-gallery {
+	width:100%;
+}
+
+.tbl-gallery tr {
+	background-color:transparent !important;
+	border:0 !important;
+}
+
+.tbl-gallery td {
+	vertical-align:top;
+	padding:6px !important;
+}
+
+
+/* Fix for image captions under non-hyperlinked images */
+.post-content img[src] + em {
+  display: block;
+  text-align: center;
+  font-style: normal;
+  font-size: 80%;
+  padding: 0;
+  color: #6d6c6c;
+}
+
+
+.post-tail-bottom {
+	padding-top:0 !important;
+	padding-bottom:0 !important;
+	float:right;
+}
+
+
+
+.post-preview {
+	/*box-shadow:0 0 5px #696969;
+	border:1px solid #797979;
+	margin-bottom:15px;
+	padding-left:10px;
+	padding-right:10px;*/
+}
+
+.post-preview > .post-content {
+	overflow:auto;
+}
+
+.post-preview > .post-content p {
+	display:inline !important;
+}
+
+.post-featured-image a {
+	border:0 !important;
+}
+
+.post-featured-image img {
+	max-width:100%;
+	height:auto;
+	border:1px solid white;
+	box-shadow:0 0 3px #ffffff;
+	margin:3px;
+	margin-left:8px;
+	float:right;
+}
+
+@media only screen and (max-width: 768px) {
+	.post-featured-image img {
+		width:100%;
+		border:0px;
+		box-shadow:none;
+		margin:0px;
+		float:none;
+	}
+}
+
+
+
+.dropdown {
+	background:var(--sidebar-bg);
+	display:inline-block;
+	line-height:1.75rem;
+	list-style:none;
+	cursor:pointer;
+}
+
+.dropdown-content {
+	display:none;
+	top:1.75rem;
+	position:absolute;
+	background:var(--sidebar-bg);
+	min-width:160px;
+	box-shadow:0px 16px 16px 0px rgba(0,0,0,0.2);
+	z-index:200;
+	white-space:nowrap;
+}
+
+.dropdown-content a {
+	color:#757575; /*var(--text-color);*/
+	padding:12px 16px;
+	text-decoration:none;
+	display:block;
+}
+
+.dropdown-content a:hover {color: var(--sidebar-active-color) !important;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #3e8e41;} 
+
+.dropdown-content:not(.active) > a {
+	transition:color 0.35s ease-in-out;
+}
+
+.dropdown-link {
+	padding:5px;
+	font-size:0.95rem;
+	font-weight:600;
+	letter-spacing:2px;
+	pointer-events:none;
+}

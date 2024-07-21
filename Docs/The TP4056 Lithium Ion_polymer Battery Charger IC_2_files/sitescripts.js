@@ -1,0 +1,2 @@
+function toggle(showHideDiv,switchTextDiv){var ele=document.getElementById(showHideDiv);var text=document.getElementById(switchTextDiv);if(ele.style.display=="none"){ele.style.display="block";text.innerHTML="hide";}
+else{ele.style.display="none";text.innerHTML="show";}}
