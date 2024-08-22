@@ -7,4 +7,5 @@
   (lib (name "DW01A")(type "Legacy")(uri "${KIPRJMOD}/Libraries/DW01A.lib")(options "")(descr ""))
   (lib (name "FS8205A")(type "Legacy")(uri "${KIPRJMOD}/Libraries/FS8205A.lib")(options "")(descr ""))
   (lib (name "ESPower-rescue")(type "Legacy")(uri "${KIPRJMOD}/ESPower-rescue.lib")(options "")(descr ""))
+  (lib (name "FS8205")(type "KiCad")(uri "${KIPRJMOD}/Libraries/FS8205_SOT-23-6/FS8205.kicad_sym")(options "")(descr ""))
 )
