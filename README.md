@@ -25,7 +25,9 @@ See directory `Gerber/` for production files and bill of materials.
 
 Version 2 has been slightly improved with a smaller form-factor, Tantalum capacitors to reduce thickness and pull-up resistors on GPIOs to ensure proper boot of the ESP.
 
-## License 
+## License
 
-Copyleft 2022 - Nicolas AGIUS - GNU GPLv3
+Copyleft 2022-2024 - Nicolas AGIUS
+
+Creative Commons - Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
 
